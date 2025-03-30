@@ -17,7 +17,7 @@
                     "time": 303000
                 },
                 "curse": {
-                    "enable": true,
+                    "enable": false,
                     "time": 303500
                 },
                 "upgrade": {
@@ -25,7 +25,7 @@
                     "time": 1205000
                 },
                 "gamble": {
-                    "enable": true,
+                    "enable": false,
                     "coinflip": {
                         "time": 25000
                     },
@@ -35,12 +35,12 @@
                 }
             }
         },
-        "prefix": "",
+        "prefix": "!",
         "huntandbattle": true,
         "banbypass": true,
         "discordrpc": false,
         "typingindicator": true,
-        "pray": false,
+        "pray": true,
         "curse": false,
         "cookie": false,
         "autoquest": false,
@@ -75,7 +75,7 @@
             }
         },
         "upgradeautohunt": {
-            "enable": false,
+            "enable": true,
             "type": "duration"
         },
         "gamble": {
